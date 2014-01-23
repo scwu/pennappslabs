@@ -53,3 +53,22 @@ map = new google.maps.Map($('#map-canvas')[0], myOptions);
 map.mapTypes.set('map_style', styledMap);
 map.setMapTypeId('map_style');
 marker.setMap(map);
+
+function chk_scroll(e)
+{
+  e.stopPropagation();
+    var height = $('#banner').height();
+    console.log(height);
+    if ($(this).scrollTop() > height) {
+      $('.navbar').addClass('navbar-fixed-top');
+
+    }
+    else if ($(this).scrollTop() < height) {
+      $('.navbar').removeClass('navbar-fixed-top');
+    }
+}
+
+$(document).ready(function(){
+
+    $(window).bind('scroll',chk_scroll);
+});

@@ -203,3 +203,9 @@ form {
   width: 500px;
 }
 
+.nav {
+  text-align: center;
+  margin-left: auto;
+  margin-right:auto;
+}
+
