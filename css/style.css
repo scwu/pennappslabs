@@ -155,6 +155,8 @@ p, label, input, button, textarea{
 
 #projects{
   text-align: center;
+  margin-top:90px;
+  margin-bottom:100px;
 }
 
 #about {
