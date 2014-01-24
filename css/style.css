@@ -149,6 +149,7 @@ p, label, input, button, textarea{
 .container {
   padding:0;
   margin:0;
+  display: table;
   width: 100%;
 }
 
@@ -156,8 +157,11 @@ p, label, input, button, textarea{
   text-align: center;
 }
 
-#about{
+#about {
   background-image:url('../img/lewis.png');
+}
+
+.info_block {
   background-repeat: no-repeat;
   width: 90%;
   height: 500px;
@@ -166,16 +170,18 @@ p, label, input, button, textarea{
   margin-bottom: 100px;
   margin-left: auto;
   margin-right: auto;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-#about h2, #about .underline_divider {
+.info_block h2, .info_block .underline_divider {
   color: white;
   border-color: white;
   margin-top:20px;
   margin-bottom: 20px;
 }
 
-#about p {
+.info_block p {
   font-size: 35px;
   color: white;
   width: 90%;
@@ -185,7 +191,7 @@ p, label, input, button, textarea{
 
 #map-canvas {
   height: 500px;
-  width: 90%;
+  width: 100%;
   z-index: 0;
   margin-left: auto;
   margin-right: auto;
@@ -209,3 +215,13 @@ form {
   margin-right:auto;
 }
 
+#more{
+  background-image:url('../img/david.png');
+}
+
+a.text_link {
+  color: white;
+  text-decoration:underline;
+  font-weight: 200;
+  font-family: 'Lato', sans-serif;
+}
