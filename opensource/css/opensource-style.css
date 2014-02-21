@@ -1,0 +1,41 @@
+a:hover{
+
+	text-decoration: none;
+
+}
+
+.bounding-box{
+
+	border: solid 4px #FFFFFF;
+	border-top: 0px;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+}
+
+.bounding-box:hover{
+
+	background-color: #EEEEEE;
+	border-color: #EEEEEE;
+}
+
+.centered{
+
+	text-align: center;
+}
+
+.fixed-height{
+
+	height: 100px;
+	overflow: hidden;
+}
+
+.projects-image{
+
+	height: 250px;
+	width: 250px;
+}
+
+.title-short{
+
+	height: 200px;
+}
